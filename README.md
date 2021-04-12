@@ -19,6 +19,11 @@ Rode o script
 ```
 node index.js
 ```
+**Atualizações futuras**
+
+Adicionar função para gravar e enviar audios pelo Instagram Desktop. 
+
+**Esta função irá auxiliar os produtores de marketing digital para automatizar suas vendas pelo direct do instagram, podendo enviar e encaminhar audios para inúmeros clientes.**
 
 ****AVISO LEGAL****
 
