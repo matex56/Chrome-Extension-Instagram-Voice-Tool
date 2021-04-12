@@ -1,25 +1,26 @@
-# instagram voicemail
-A simple node CLI script for instagram DM. 
+# Chrome-Extension-Instagram-Voice-Tool
+Um script CLI de nó simples para instagram DM.
 
-The idea for this CLI script is inspired by the traditional voicemail. Under the hood this library is using [Instagram MQTT](https://github.com/Nerixyz/instagram_mqtt) and [Instagram Private API](https://github.com/dilame/instagram-private-api) 
+A ideia para este script CLI é inspirada no correio de voz tradicional. Por baixo dela, esta biblioteca está usando [Instagram MQTT] (https://github.com/Nerixyz/instagram_mqtt) e [Instagram Private API] (https://github.com/dilame/instagram-private-api)
 
-**USAGE**
+**Como usar**
 
-Download or clone the repository,navigate to the created folder and Install the project dependencies
+Baixe ou clone o repositório, navegue até a pasta criada e instale as dependências do projeto
 ```
 npm install
 ```
-Before run the script, create a new folder and call it `media` inside the project folder. It will hold all the audio messages that will be sended to you when the script is running. 
+Antes de executar o script, crie uma nova pasta e chame-a de `media` dentro da pasta do projeto. Ele conterá todas as mensagens de áudio que serão enviadas a você quando o script estiver em execução.
 
-To use the voicemail bot you need to have the `ffmpeg` library installed in your system. Place inside the script folder an `mp3` file named `voicemail.mp3`. The script, when you choose to enable the bot, will look for this file and will take care to convert it into the instagram accepted audio format. Be sure to use only files of the maximum duration of 1:00 minutes. 
+Para usar o bot de correio de voz, você precisa ter a biblioteca `ffmpeg` instalada em seu sistema. Coloque dentro da pasta de script um arquivo `mp3` chamado` voicemail.mp3`. O script, quando você optar por habilitar o bot, irá procurar por esse arquivo e terá o cuidado de convertê-lo para o formato de áudio aceito pelo Instagram. Certifique-se de usar apenas arquivos com duração máxima de 1:00 minutos.
 
-To replace your voicemail message, simply replace the `voicemail.mp3` file and delete the auto generated `voicemail.mp4` file.
+Para substituir sua mensagem de correio de voz, simplesmente substitua o arquivo `voicemail.mp3` e exclua o arquivo` voicemail.mp4` gerado automaticamente.
 
-Run the script
+Rode o script
 ```
 node index.js
 ```
 
-****DISCLAIMER****
+****AVISO LEGAL****
 
-This script is safe to use. Your Instagram credentials will be used from the script only for login. No data is shared online or with third party server. Be carefoul during the usage, I'm not responsable if your account is blocked for spam activities. 
+Este script é seguro para uso. Suas credenciais do Instagram serão usadas a partir do script apenas para login. Nenhum dado é compartilhado online ou com servidor de terceiros. Tenha cuidado durante o uso, não sou responsável se sua conta for bloqueada por atividades de spam.
+
